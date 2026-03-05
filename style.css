@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(30, 117, 184);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.container{
+    width: 1000px; 
+    height: 550px;
+}
+#calculator{
+    width: 320px;
+    height: 520px;
+    background-color: rgb(170, 175, 157);
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 40px bisque;
+
+}
+
+#screen{
+    height: 120px;
+}
+
+#keyboard{
+    height: 400px;
+}
+button{
+    height:50px ;
+    width:50px ;
+    margin: 12px;
+    font-size: 25px;
+    font-weight: bold;
+  
+}
