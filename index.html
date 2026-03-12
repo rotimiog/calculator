@@ -14,35 +14,34 @@
    <div class="container">
     <div id="calculator">
     <div id="screen">
-        <input type="text" disabled >
+        <input type="text" disabled  id="solve">
     </div>  
     <p id="build">
         @Rotimi
     </p> 
     <div id="keyboard">
-    <button>7</button>
-    <button>8</button>
-    <button>9</button>
-    <button>+</button>
-    <button>4</button>
-    <button>5</button>
-    <button>6</button>
-    <button>-</button>
-    <button>1</button>
-    <button>2</button>
-    <button>3</button>
-    <button>*</button>
-    <button>/</button>
-    <button>0</button>
-    <button>.</button>
-    <button>=</button>
-    <button id="clear">c</button>
+    <button onclick="add_to_display('7')">7</button>
+    <button onclick="add_to_display('8')">8</button>
+    <button onclick="add_to_display('9')">9</button>
+    <button onclick="add_to_display('+')">+</button>
+    <button onclick="add_to_display('4')">4</button>
+    <button onclick="add_to_display('5')">5</button>
+    <button onclick="add_to_display('6')">6</button>
+    <button onclick="add_to_display('-')">-</button>
+    <button onclick="add_to_display('1')">1</button>
+    <button onclick="add_to_display('2')">2</button>
+    <button onclick="add_to_display('3')">3</button>
+    <button onclick="add_to_display('*')">*</button>
+    <button onclick="add_to_display('/')">/</button>
+    <button onclick="add_to_display('0')">0</button>
+    <button onclick="add_to_display('.')">.</button>
+    <button onclick="calculate()">=</button>
+    <button id="clear" onclick="clear_display()">c</button>
     </div>
     </div>
    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+<script src="script.js"></script>
+        
         
 </body>
 
